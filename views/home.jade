@@ -1,0 +1,29 @@
+doctype html
+head
+  title My Blog
+  link(rel="stylesheet", href="/css/home.css", media="screen")
+  link(rel="stylesheet", href="/css/pure-min.css", media="screen")
+  link(rel="stylesheet", href="/css/rainbowthemes/paraiso-dark.css", media="screen")
+
+  script(src="/js/rainbow-custom.min.js")
+
+body
+  #left
+
+  #right
+    #content
+      #archive
+        #title
+          h1 Recent posts
+        #posts-list
+          .post
+            .post-title
+              h3
+                a(href="/changing-flask-default-templates-directory/") Changing Flask's default templates directory
+            .post-metadata
+              span Posted by : Kevin &nbsp;&nbsp;
+              span Posted at : Wednesday, May 28 2014
+            .post-excerpt
+              Assume that you had to move all your Flask application's files and directories to another sub-directory named, let's say app/. In that case, now when you...
+      #footer
+        p Source code @ <a href="github.com/kevinpaladin/myblog">Github.com/kevinpaladin/myblog</a>

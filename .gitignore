@@ -1,0 +1,5 @@
+*.swp
+*.bkp
+*~
+db
+node_modules
