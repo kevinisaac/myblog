@@ -17,4 +17,5 @@ app.get('/post', function(request, response) {
     response.render('post');
 });
 
-app.listen(7777);
+var port = Number(process.env.PORT || 5000);
+app.listen(port);
